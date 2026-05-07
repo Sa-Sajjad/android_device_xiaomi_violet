@@ -153,7 +153,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     libxml2 \
-    GoogleCameraGo \
     vendor.qti.hardware.camera.device@1.0.vendor
 
 # CNE
@@ -247,9 +246,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
-
-# Signing Keys
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/keys/releasekey
 
 # Screen Recorder
 PRODUCT_PACKAGES += \
